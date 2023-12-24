@@ -4,7 +4,7 @@ using System.Text;
 namespace MySqlConnector.Logging;
 
 public class ConsoleLoggerProvider : IMySqlConnectorLoggerProvider
-{
+{ // Making my mark!
 	public ConsoleLoggerProvider(MySqlConnectorLogLevel minimumLevel = MySqlConnectorLogLevel.Info, bool isColored = true)
 	{
 		if (minimumLevel < MySqlConnectorLogLevel.Trace || minimumLevel > MySqlConnectorLogLevel.Fatal)
